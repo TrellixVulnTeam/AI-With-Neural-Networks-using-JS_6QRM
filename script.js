@@ -1,5 +1,9 @@
   
-const net = new brain.NeuralNetwork()
+const net = new brain.NeuralNetwork(
+    {
+        hiddenLayers:[4, 5, 6]
+    }
+)
 
 net.train([
 
